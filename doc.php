@@ -3,7 +3,7 @@
     $nome = addslashes($_POST['nome']);
     $email = addslashes($_POST['email']);
 
-    $para = $email
+    $para = .$email
     $assunto = "Obrigado por participar da conferência de primavera! :)"
 
     $corpo = "Olá,".$nome."\n"."eee";
@@ -16,5 +16,6 @@
     else {
         echo("Houve um erro ao enviar o e-mail!");
     }
+
 
 ?>
